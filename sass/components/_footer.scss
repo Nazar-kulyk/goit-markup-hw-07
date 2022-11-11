@@ -1,0 +1,74 @@
+.footer {
+    background-color: $footer-color;
+    padding: 60px 0px 60px 0px;
+
+
+    &__div {
+        display: flex;
+        width: 1200px;
+        padding: 0px 15px;
+        margin: 0 auto;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+
+    &__address {
+        font-style: normal;
+    }
+
+    &__ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    &__li {
+        margin-bottom: 9px;
+        text-decoration: none;
+    }
+
+    &__li:last-child {
+        margin-bottom: 0px;
+    }
+
+    &__kyiv {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: $kyiv-color;
+        text-decoration: none;
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0;
+    }
+
+    &__kyiv:hover {
+        color: $kyiv-hover;
+    }
+
+    &__kyiv:focus {
+        color: $kyiv-focus;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--contact-ft);
+
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-delay: 0;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: var(--contact-focus);
+    }
+     
+}
+ .logo--color {
+     color: var(--logo--color);
+ }

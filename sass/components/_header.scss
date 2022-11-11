@@ -1,0 +1,49 @@
+.header {
+    border-bottom: 1px solid $border-color;
+
+
+    &__div {
+        display: flex;
+        align-items: center;
+    }
+
+    &__navigation {
+        display: flex;
+        align-items: center;
+    }
+
+    &__ul {
+        display: flex;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        color: var(--color-nav-link);
+        list-style-type: none;
+        margin-left: 93px;
+        padding: 0;
+    }
+
+    &__li {
+        margin-right: 50px;
+    }
+
+    &__li:last-child {
+        margin-right: 0px;
+    }
+
+    &__link::after {
+        position: absolute;
+        display: inline-block;
+        bottom: -1px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: rgba(33, 150, 243);
+    }
+}

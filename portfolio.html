@@ -18,33 +18,39 @@
   </head>
 
   <body>
-    <header class="index-header">
-      <div class="container header-nav">
-        <nav class="header-nav-list">
-          <a lang="en" class="logo" href="index.html">Web<span class="logo-st">Studio</span></a>
+    <header class="header">
+      <div class="container header__div">
+        <nav class="header__navigation">
+          <a lang="en" class="logo" href="index.html">Web<span class="logo__st">Studio</span></a>
 
-          <ul class="nav-link">
-            <li class="nav-link-li"><a class="link" href="index.html">Студія</a></li>
-            <li class="nav-link-li">
-              <a class="link link-portfolio link-current" href="portfolio.html">Портфолі</a>
+          <ul class="header__ul">
+            <li class="header__li">
+              <a class="link" href="index.html">Студія</a>
             </li>
-            <li class="nav-link-li"><a class="link" href="#">Контакти</a></li>
+            
+            <li class="header__li">
+              <a class="link link--current header__link" href="portfolio.html">Портфолі</a>
+            </li>
+            
+            <li class="header__li">
+              <a class="link" href="#">Контакти</a>
+            </li>
           </ul>
         </nav>
 
-        <ul class="list-header-nav">
-          <li class="list-li">
-            <a class="contact" href="mailto:info@devstudio.com">
-              <svg class="header-svg-env">
+        <ul class="contact">
+          <li class="contact__li">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__svg--envelope">
                 <use href="./images/icons.svg.svg#envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
 
-          <li class="list-li">
-            <a class="contact" href="tel:+380961111111">
-              <svg class="header-svg-tel">
+          <li class="contact__li">
+            <a class="contact__link" href="tel:+380961111111">
+              <svg class="contact__svg--smartphone">
                 <use href="./images/icons.svg.svg#smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -55,23 +61,23 @@
     </header>
 
     <main>
-      <section class="main-section">
+      <section class="main">
         <div class="container">
-          <ul class="nav-link-pt">
-            <li class="n-l-p-li"><button type="button" class="menu-link">Усі</button></li>
-            <li class="n-l-p-li"><button type="button" class="menu-link">Веб-сайти</button></li>
-            <li class="n-l-p-li"><button type="button" class="menu-link">Додатки</button></li>
-            <li class="n-l-p-li"><button type="button" class="menu-link">Дизайн</button></li>
-            <li class="n-l-p-li"><button type="button" class="menu-link">Маркетинг</button></li>
+          <ul class="main__ul">
+            <li class="main__li"><button type="button" class="menu-link">Усі</button></li>
+            <li class="main__li"><button type="button" class="menu-link">Веб-сайти</button></li>
+            <li class="main__li"><button type="button" class="menu-link">Додатки</button></li>
+            <li class="main__li"><button type="button" class="menu-link">Дизайн</button></li>
+            <li class="main__li"><button type="button" class="menu-link">Маркетинг</button></li>
           </ul>
 
-          <ul class="list-p">
-            <li class="list-p-li">
-              <a class="list-a" href="#">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+          <ul class="products">
+            <li class="products__li">
+              <a class="products__link" href="#">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -86,19 +92,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Технокряк</h3>
-                  <p class="paragraph-portfolio">Веб-сайт</p>
+                <div class="products__card">
+                  <h3 class="products__title">Технокряк</h3>
+                  <p class="products__info">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -112,21 +118,21 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">
+                <div class="products__card">
+                  <h3 class="products__title">
                     Постер <span lang="en">New Orlean vs Golden Star</span>
                   </h3>
-                  <p class="paragraph-portfolio">Дизайн</p>
+                  <p class="products__info">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -140,19 +146,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Ресторан <span lang="en">Seafood</span></h3>
-                  <p class="paragraph-portfolio">Додаток</p>
+                <div class="products__card">
+                  <h3 class="products__title">Ресторан <span lang="en">Seafood</span></h3>
+                  <p class="products__info">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -166,19 +172,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Проєкт <span lang="en">Prime</span></h3>
-                  <p class="paragraph-portfolio">Маркетинг</p>
+                <div class="products__card">
+                  <h3 class="products__title">Проєкт <span lang="en">Prime</span></h3>
+                  <p class="products__info">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -192,19 +198,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Проєкт <span lang="en">Boxes</span></h3>
-                  <p class="paragraph-portfolio">Додаток</p>
+                <div class="products__card">
+                  <h3 class="products__title">Проєкт <span lang="en">Boxes</span></h3>
+                  <p class="products__info">Додаток</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -218,19 +224,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio"><span lang="en">Inspiration has no Borders</span></h3>
-                  <p class="paragraph-portfolio">Веб-сайт</p>
+                <div class="products__card">
+                  <h3 class="products__title"><span lang="en">Inspiration has no Borders</span></h3>
+                  <p class="products__info">Веб-сайт</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -244,19 +250,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Видання <span lang="en">Limited Edition</span></h3>
-                  <p class="paragraph-portfolio">Дизайн</p>
+                <div class="products__card">
+                  <h3 class="products__title">Видання <span lang="en">Limited Edition</span></h3>
+                  <p class="products__info">Дизайн</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -270,19 +276,19 @@
                     height="294"
                   />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio">Проєкт <span lang="en">LAB</span></h3>
-                  <p class="paragraph-portfolio">Маркетинг</p>
+                <div class="products__card">
+                  <h3 class="products__title">Проєкт <span lang="en">LAB</span></h3>
+                  <p class="products__info">Маркетинг</p>
                 </div>
               </a>
             </li>
 
-            <li class="list-p-li">
-              <a class="list-a" href="">
-                <div class="list-p-div">
-                  <div class="overlay">
-                    <div class="div-p">
-                      <p class="overlay-p">
+            <li class="products__li">
+              <a class="products__link" href="">
+                <div class="products__div">
+                  <div class="products__overlay">
+                    <div class="products__decor">
+                      <p class="products__paragraph">
                         Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                         сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про
                         компанію чи приватну особу.
@@ -291,9 +297,9 @@
                   </div>
                   <img src="./images/img_portfolio/opt/img9.jpg" alt="" width="370" height="294" />
                 </div>
-                <div class="p-div-h-p">
-                  <h3 class="title-portfolio"><span lang="en">Growing Business</span></h3>
-                  <p class="paragraph-portfolio cotact-info">Додаток</p>
+                <div class="products__card">
+                  <h3 class="products__title"><span lang="en">Growing Business</span></h3>
+                  <p class="products__info">Додаток</p>
                 </div>
               </a>
             </li>
@@ -302,18 +308,18 @@
       </section>
     </main>
 
-    <footer class="cont-info">
-      <div class="container-ft">
-        <div class="contact-inf-ft">
-          <a lang="en" class="logo logo-ft" href="index.html"
-            >Web<span class="logo-ft-st">Studio</span></a
+    <footer class="footer">
+      <div class="footer__div">
+        <div>
+          <a lang="en" class="logo " href="index.html"
+            >Web<span class="logo--color">Studio</span></a
           >
 
-          <address class="contact-info">
-            <ul class="list-footer">
-              <li class="l-footer-li">
+          <address class="footer__address">
+            <ul class="footer__ul">
+              <li class="footer__li">
                 <a
-                  class="kyiv"
+                  class="footer__kyiv"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -321,55 +327,55 @@
                 >
               </li>
 
-              <li class="l-footer-li">
-                <a class="l-footer-li contact-ft" href="mailto:info@devstudio.com"
+              <li class="footer__li">
+                <a class="footer__li footer__link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
 
-              <li class="l-footer-li">
-                <a class="l-footer-li contact-ft" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="footer__li">
+                <a class="footer__li footer__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
 
         <div class="join">
-          <p class="p-join">приєднуйтесь</p>
-          <ul class="ft-social-svg">
-            <li class="ft-li-svg">
+          <p class="join__paragraph">приєднуйтесь</p>
+          <ul class="join__ul">
+            <li class="join__li">
               <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer nofollow">
-                <svg class="ft-svg-ico">
+                <svg class="join__svg">
                   <use href="./images/icons.svg.svg#instagram-2"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="ft-li-svg">
+            <li class="join__li">
               <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer nofollow">
-                <svg class="ft-svg-ico">
+                <svg class="join__svg">
                   <use href="./images/icons.svg.svg#twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="ft-li-svg">
+            <li class="join__li">
               <a
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="ft-svg-ico">
+                <svg class="join__svg">
                   <use href="./images/icons.svg.svg#facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="ft-li-svg">
+            <li class="join__li">
               <a
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="ft-svg-ico">
+                <svg class="join__svg">
                   <use href="./images/icons.svg.svg#linkedin-1"></use>
                 </svg>
               </a>
@@ -377,17 +383,17 @@
           </ul>
         </div>
 
-        <div class="ft-form-div">
-          <form class="form-ft" name="subscription-footer">
-            <div class="div-ft-form">
-              <span class="form-ft-p">Підпишіться на розсилку</span>
+        <div class="footer-form__div">
+          <form class="footer-form__form" name="subscription-footer">
+            <div>
+              <span class="footer-form__span">Підпишіться на розсилку</span>
               <label>
-                <input class="input-email-ft" type="email" name="email" placeholder="E-mail" />
+                <input class="footer-form__input" type="email" name="email" placeholder="E-mail" />
               </label>
-              <button class="btn-fomr-ft" type="submit">
-                <span class="spn-form-ft">
+              <button class="footer-form__button" type="submit">
+                <span class="footer-form__sign">
                   Підписатися
-                  <svg class="svg-form-btn">
+                  <svg class="footer__svg">
                     <use href="./images/icons.svg.svg#telegra_m"></use>
                   </svg>
                 </span>
