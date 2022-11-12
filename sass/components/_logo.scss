@@ -11,4 +11,14 @@
     &__st {
             color: $color-logo-st ;
         }
+    
+     &__st--color {
+      color: $logo__st--color;
+     }
 }
+
+ .logo--ft {
+     display: flex;
+     margin-bottom: 20px;
+}
+ 

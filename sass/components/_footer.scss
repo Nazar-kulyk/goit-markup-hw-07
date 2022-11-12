@@ -1,9 +1,8 @@
 .footer {
     background-color: $footer-color;
     padding: 60px 0px 60px 0px;
-
-
-    &__div {
+}
+    .footer__div {
         display: flex;
         width: 1200px;
         padding: 0px 15px;
@@ -12,25 +11,26 @@
         justify-content: space-between;
     }
 
-    &__address {
+    .footer__address {
         font-style: normal;
     }
 
-    &__ul {
+    .footer__ul {
         padding: 0;
         margin: 0;
     }
 
-    &__li {
+    .footer__li {
         margin-bottom: 9px;
         text-decoration: none;
+    
     }
 
-    &__li:last-child {
+    .footer__li:last-child {
         margin-bottom: 0px;
     }
 
-    &__kyiv {
+    .footer__kyiv {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
@@ -41,21 +41,22 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         transition-delay: 0;
+    
     }
 
-    &__kyiv:hover {
-        color: $kyiv-hover;
+     .footer__kyiv:hover {
+          color: $kyiv-hover;
+        }
+    
+     .footer__kyiv:focus {
+         color: $kyiv-focus;
     }
 
-    &__kyiv:focus {
-        color: $kyiv-focus;
-    }
-
-    &__link {
+    .footer__link {
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-        color: var(--contact-ft);
+        color: $contact-ft;
 
         transition-property: color;
         transition-duration: 250ms;
@@ -63,12 +64,10 @@
         transition-delay: 0;
     }
 
-    &__link:hover,
-    &__link:focus {
-        color: var(--contact-focus);
+    .footer__link:hover,
+    .footer__link:focus {
+        color: $contact-focus;
     }
      
-}
- .logo--color {
-     color: var(--logo--color);
- }
+
+ 

@@ -1,18 +1,18 @@
 .header {
     border-bottom: 1px solid $border-color;
+}
 
-
-    &__div {
+    .header__div {
         display: flex;
         align-items: center;
     }
 
-    &__navigation {
+    .header__navigation {
         display: flex;
         align-items: center;
     }
 
-    &__ul {
+    .header__ul {
         display: flex;
         font-family: 'Roboto';
         font-style: normal;
@@ -27,15 +27,15 @@
         padding: 0;
     }
 
-    &__li {
+    .header__li {
         margin-right: 50px;
     }
 
-    &__li:last-child {
+    .header__li:last-child {
         margin-right: 0px;
     }
 
-    &__link::after {
+    .header__link::after {
         position: absolute;
         display: inline-block;
         bottom: -1px;
@@ -46,4 +46,3 @@
         border-radius: 2px;
         background-color: rgba(33, 150, 243);
     }
-}
