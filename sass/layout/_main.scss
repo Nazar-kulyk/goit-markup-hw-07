@@ -20,8 +20,11 @@
 
     .main__li {
         margin-right: 8px;
-    }
 
-    .main__li:last-child {
+        &:last-child {
         margin: 0px;
     }
+
+    }
+
+   

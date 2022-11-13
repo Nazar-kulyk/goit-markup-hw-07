@@ -7,15 +7,14 @@
     color: $color-logo ;
     text-decoration: none;
     font-family: 'Raleway';
-
-    &__st {
+}
+.logo__st {
             color: $color-logo-st ;
         }
     
-     &__st--color {
-      color: $logo__st--color;
-     }
-}
+.logo__st--color {
+  color: $logo__st--color;
+ }
 
  .logo--ft {
      display: flex;

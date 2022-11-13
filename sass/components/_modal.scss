@@ -46,11 +46,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0;
-}
 
-.modal__button:hover {
+  &:hover {
   fill: #2196f3;
 }
+}
+
+
 
 .modal__svg {
   display: flex;

@@ -23,11 +23,13 @@
 .whatwedo__li {
   padding: 0;
   flex-basis: calc((100% - 30px) / 3);
-}
 
-.whatwedo__li:last-child {
+&:last-child {
   margin-right: 0;
 }
+}
+
+
 
 .whatwedo__div {
   position: relative;

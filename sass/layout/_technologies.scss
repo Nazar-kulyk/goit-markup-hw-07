@@ -12,10 +12,12 @@
 .technologies__li {
   margin-right: 30px;
   width: 270px;
-}
-.technologies__li:last-child {
+
+  &:last-child {
   margin-right: 0;
 }
+}
+
 .technologies__div {
   display: flex;
   width: 270px;
